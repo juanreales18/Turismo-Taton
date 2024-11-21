@@ -338,3 +338,71 @@ footer {
     height: 5%;
     bottom: 0;
 }
+
+
+@media (max-width: 480px) {
+    .header-slider {
+        height: 700px;
+    }
+
+    header .header-content{
+        width: 70%;
+        height: 10%;
+        top: 35%;
+    }
+
+    header h1 {
+        font-size: 1.5em;
+    }
+
+    header p {
+        font-size: 0.8em;
+    }
+
+    nav ul {
+        flex-direction: initial;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 10px 10px;
+    }
+
+    nav ul li a {
+        font-size: 1em;
+    }
+
+    .evento {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .imagen-evento {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .imagen-evento img {
+        width: 100%;
+        height: auto;
+    }
+
+    .div-evento {
+        padding: 15px;
+        text-align: center;
+    }
+
+    .titulo-evento, .titulo-evento2 {
+        font-size: 1.2em;
+        margin-top: 10px;
+    }
+
+    .p-evento {
+        font-size: 1em;
+        margin-top: 10px;
+    }
+
+    .galeria-img img {
+        width: calc(100% - 10px);
+    }
+}
